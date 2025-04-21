@@ -1,0 +1,22 @@
+{
+  "name": "repo-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://abdoyasser702.github.io/Repo-finder/",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^6.2.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.86.3"
+  }
+}
